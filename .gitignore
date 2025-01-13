@@ -1,0 +1,59 @@
+# Ignore Python virtual environment
+venv/
+.env/
+.env*/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Django secret key and sensitive data
+*.env
+*.env.local
+*.env.*.local
+secrets.py
+settings/local.py
+
+# Ignore database files (SQLite, etc.)
+*.sqlite3
+*.db
+*.sql
+
+# Ignore static and media files (if not versioned)
+/static/
+/media/
+
+# Ignore IDE specific files (VSCode)
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Node.js and frontend build files (if applicable)
+node_modules/
+/dist/
+/build/
+/staticfiles/
+
+# Ignore Python packaging files
+*.egg-info/
+*.egg
+dist/
+build/
